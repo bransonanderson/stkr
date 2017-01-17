@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="left-up" width="30" height="15" tilewidth="36" tileheight="36" nextobjectid="32">
+ <properties>
+  <property name="background_music" value="vega"/>
+ </properties>
+ <tileset firstgid="1" source="../Tilesheets/Wireframes.tsx"/>
+ <imagelayer name="Backdrop" offsetx="-250" offsety="0">
+  <image source="../Tilesheets/background2.png" width="1671" height="550"/>
+  <properties>
+   <property name="Speed" value="70"/>
+  </properties>
+ </imagelayer>
+ <imagelayer name="Small mountains" offsetx="133" offsety="168">
+  <image source="../Tilesheets/background3.png" width="850" height="250"/>
+  <properties>
+   <property name="Speed" value="60"/>
+  </properties>
+ </imagelayer>
+ <imagelayer name="Big mountain" offsetx="200" offsety="-28.5">
+  <image source="../Tilesheets/background1.png" width="851" height="500"/>
+  <properties>
+   <property name="Speed" value="55"/>
+  </properties>
+ </imagelayer>
+ <layer name="Background" width="30" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,
+0,0,0,0,0,0,0,0,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer name="Environment" width="30" height="15">
+  <data encoding="csv">
+12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,0,0,0,0,0,0,0,0,0,0,11,
+12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,0,16,13,13,16,27,0,0,0,0,11,
+12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,0,19,14,14,19,3,0,0,0,0,11,
+12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,0,19,14,14,19,0,0,0,26,0,11,
+12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,0,19,14,14,19,0,0,1,1,0,11,
+12,0,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,0,1,1,1,1,0,0,0,0,0,11,
+12,0,33,7,6,6,6,8,0,0,0,7,6,6,6,6,8,0,11,0,0,0,0,0,0,0,0,0,0,11,
+12,0,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,0,0,0,0,0,1,1,1,0,0,11,
+12,0,33,0,0,0,0,0,0,7,8,0,0,0,0,20,0,0,12,0,0,0,0,0,0,0,0,0,0,12,
+12,0,38,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,
+21,21,21,21,21,21,21,21,21,21,21,21,21,21,22,0,0,18,16,16,16,16,16,17,0,0,18,16,16,16,
+24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,0,0,19,19,19,19,19,19,19,5,0,19,19,19,19,
+24,24,24,24,24,24,24,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+24,24,24,24,24,24,24,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,27,19,0,0,0,0,
+24,24,24,24,24,24,24,24,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21
+</data>
+ </layer>
+ <objectgroup name="Objects">
+  <object id="21" name="Trigger_Lever" type="Lever" gid="31" x="180" y="216" width="36" height="36">
+   <properties>
+    <property name="initial" value="Off"/>
+    <property name="trigger-off-sound" value="lever"/>
+    <property name="trigger-on-sound" value="lever"/>
+   </properties>
+  </object>
+  <object id="22" name="Target_Door" type="OnOff" gid="12" x="648" y="360" width="36" height="36">
+   <properties>
+    <property name="initial" value="On"/>
+    <property name="trigger_name" value="Trigger_Lever"/>
+   </properties>
+  </object>
+  <object id="24" name="CityPortal" type="Portal" gid="34" x="108" y="360" width="36" height="36">
+   <properties>
+    <property name="destination" value="city.tmx#MainPortal"/>
+    <property name="exit_direction" value="Up"/>
+   </properties>
+  </object>
+  <object id="26" name="Moving_Elevator" gid="1" x="288" y="180" width="36" height="36">
+   <properties>
+    <property name="direction" value="down"/>
+    <property name="distance" value="2"/>
+   </properties>
+  </object>
+  <object id="27" name="Moving_Elevator" gid="1" x="324" y="144" width="36" height="36">
+   <properties>
+    <property name="direction" value="up"/>
+    <property name="distance" value="2"/>
+   </properties>
+  </object>
+  <object id="28" name="Moving_Elevator" gid="1" x="360" y="72" width="36" height="36">
+   <properties>
+    <property name="direction" value="right"/>
+    <property name="distance" value="4"/>
+    <property name="speed" value="4"/>
+    <property name="trigger_name" value="Trigger_Button"/>
+   </properties>
+  </object>
+  <object id="29" name="Trigger_Button" type="PressurePad" gid="27" x="216" y="216" width="36" height="36">
+   <properties>
+    <property name="initial" value="Off"/>
+    <property name="trigger-off-sound" value="button"/>
+    <property name="trigger-on-sound" value="button"/>
+   </properties>
+  </object>
+  <object id="31" name="Moving_Elevator" gid="1" x="288" y="36" width="36" height="36">
+   <properties>
+    <property name="direction" value="left"/>
+    <property name="distance" value="4"/>
+    <property name="speed" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="Foreground" width="30" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,12,0,12,0,12,0,0,0,0,0,0,0,11,0,11,0,0,0,11,0,11,
+0,0,0,0,0,0,0,0,0,12,0,12,0,12,0,0,0,0,0,0,0,11,0,11,0,0,0,11,0,11,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>

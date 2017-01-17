@@ -1,0 +1,32 @@
+{
+  "current-level": "main",
+  "starting-portal": "GoPortal",
+  "levels": {
+    "main": {
+      "targets": [
+        {
+          "name": "Target_Door",
+          "state": "On"
+        }
+      ],
+      "triggers": [
+        {
+          "name": "Trigger_Lever",
+          "state": "On"
+        },
+        {
+          "name": "Trigger_Button",
+          "state": "Off"
+        }
+      ]
+    },
+    "dunes": {
+      "targets": null,
+      "triggers": null
+    },
+    "start": {
+      "targets": null,
+      "triggers": null
+    }
+  }
+}

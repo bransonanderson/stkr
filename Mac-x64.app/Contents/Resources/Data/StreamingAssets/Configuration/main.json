@@ -1,0 +1,51 @@
+{
+	"graphics" :
+	{
+		"width" : 1024,
+		"height" : 768,
+		"fullscreen" : false,
+	},
+	"input" :
+	{
+		"activate-trigger-key" : "UpArrow",
+		"next-screenshot-key" : "RightArrow",
+		"previous-screenshot-key" : "LeftArrow",
+		"reload-key" : "R",
+		"take-screenshot-key" : "Q",
+		"toggle-screenshot-viewing-mode-key" : "Tab",
+	},
+	"sound" :
+	{
+		"music-volume" : "0.25",
+		"sounds" :
+		{
+			"button" : "button-stomp.wav",
+			"jump" : "jump.wav",
+			"land" : "landing.wav",
+			"lever" : "lever-actuate.wav",
+			"walk" : "single-step.wav",
+		},
+		"music" :
+		{
+			"vega" : "Vega (DRAFT).ogg",
+		},
+		"events" :
+		{
+			"player-jump-started" : "jump",
+			"player-jump-ended" : "land",
+			"player-walk" : "walk"
+		}
+	},
+	"player" : 
+	{
+		"animation-file": "Player.tmx",
+		"jump-force" : 1000,
+		"max-speed" : 5,
+		"move-force" : 100,
+		"climb-speed": 5,
+	},
+	"default-platform-move-speed": 1.5,
+	"save-game-file" : "save.json",
+	"screenshot-draw-margin" : 32,
+	"camera-size": 8,
+}

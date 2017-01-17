@@ -1,0 +1,52 @@
+{
+  "current-level": "city",
+  "starting-portal": "T_DesertPortal",
+  "levels": {
+    "main": {
+      "targets": [
+        {
+          "name": "Target_Door",
+          "state": "On"
+        }
+      ],
+      "triggers": [
+        {
+          "name": "Trigger_Lever",
+          "state": "On"
+        },
+        {
+          "name": "Trigger_Button",
+          "state": "Off"
+        }
+      ]
+    },
+    "dunes": {
+      "targets": null,
+      "triggers": null
+    },
+    "start": {
+      "targets": null,
+      "triggers": null
+    },
+    "canyon": {
+      "targets": null,
+      "triggers": null
+    },
+    "city": {
+      "targets": null,
+      "triggers": null
+    },
+    "t_lobby": {
+      "targets": null,
+      "triggers": null
+    },
+    "t_astrolabe": {
+      "targets": null,
+      "triggers": null
+    },
+    "vision1": {
+      "targets": null,
+      "triggers": null
+    }
+  }
+}
